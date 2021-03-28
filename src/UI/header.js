@@ -3,8 +3,6 @@ import{ View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native'
 import { FILTER } from '../router';
 const url ='https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Ordinary Drink'
 export const Header = ({navigation, data}) => {
-	console.log(navigation.navigate);
-	console.log(data);
 	return(
         <View style={styles.view}>
             <Text style={styles.text}>Drinks</Text>

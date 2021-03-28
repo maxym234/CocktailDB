@@ -32,7 +32,6 @@ export const Categories = ({dataCateg}) => {
      const scrollHandler = () => {
         setPage('Cocktail')
         setTitles('Cocktail')
-        console.log(dataCateg.url+`${page}`, ' ef3');
      }
    const renderRow = ({ item }) => {
         return(
