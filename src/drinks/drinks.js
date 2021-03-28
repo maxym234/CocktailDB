@@ -12,7 +12,6 @@ export default class Drinks extends Component {
             <View style={styles.view}>
                 <Header navigation={navigation} data={request}/>
                     <View> 
-                        <Text style={styles.text}>{request.value}</Text>
                         <Categories key={request.key} dataCateg={request}/>
                     </View>
                 

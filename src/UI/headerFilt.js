@@ -3,8 +3,8 @@ import{ View,  Text, Image, StyleSheet, TouchableOpacity, TouchableOpacityBase} 
 export const HeaderFilt = ({navigation}) => {
 
 	return(
-        <View style={styles.view}>
-            <TouchableOpacity onPress={() => navigation.goBack()}>
+        <View >
+            <TouchableOpacity style={styles.view} onPress={() => navigation.goBack()}>
                 <Image style={styles.filter} source={require('../../public/left.png')}/>
                 <Text style={styles.text}>Filter</Text>
             </TouchableOpacity>
